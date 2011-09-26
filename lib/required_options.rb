@@ -1,6 +1,4 @@
 module RequiredOptions
-  VERSION = '0.5.0'
-
   def required_options(options, *required_options)
     included_opts, missing_opts = required_options.partition do |o|
       options.include?(o)
