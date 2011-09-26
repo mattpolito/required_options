@@ -1,4 +1,4 @@
-require "required_options/version"
+require "lib/required_options/version"
 
 Gem::Specification.new do |s|
   s.specification_version = 2 if s.respond_to? :specification_version=
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     README.md
     Rakefile
     lib/required_options.rb
+    lib/required_options/version.rb
     required_options.gemspec
     spec/required_options_spec.rb
   ]
