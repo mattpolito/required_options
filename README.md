@@ -18,7 +18,9 @@ If using bundler
 Just declare which components of your options hash that you can't live without
 
     def some_method_with_options(arg, opts = {})
-      required_options :track_name, :band_name
+      required_options opts, :track_name, :band_name
 
       # do some really smart work here
     end
+
+If a required option is not passed into the method, it will raise a MissingOptions exception that displays the forgotten option.
