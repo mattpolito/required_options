@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    required_options (0.1.0)
+    required_options (0.5.0)
 
 GEM
   specs:
@@ -20,4 +20,4 @@ PLATFORMS
 
 DEPENDENCIES
   required_options!
-  rspec
+  rspec (~> 2.6)
