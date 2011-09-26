@@ -23,4 +23,4 @@ Just declare which components of your options hash that you can't live without
       # do some really smart work here
     end
 
-If a required option is not passed into the method, it will raise a MissingOptions exception that displays the forgotten option.
+If a required option is not passed into the method, it will raise a `MissingOptions` exception that displays the forgotten option.
