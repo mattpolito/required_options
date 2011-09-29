@@ -13,8 +13,6 @@ module RequiredOptions
   end
 end
 
-class Object
-  include RequiredOptions
-end
-
 class MissingOptions < ArgumentError; end
+
+Object.send(:include, RequiredOptions)
